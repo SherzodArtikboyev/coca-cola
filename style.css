@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #161616;
+}
+section .circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e51e2e;
+    clip-path: circle(70% at right -20%);
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+header .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+header .menu li{
+    list-style: none;
+}
+header .menu li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+header .logo{
+    position: relative;
+    margin-right: 25%;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    margin-left: 8%;
+    width: 600px;
+    height: 500px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.text h1{
+    margin-top: 20%;
+    margin-bottom: 2%;
+    font-size: 55px;
+    font-weight: bolder;
+}
+.text p{
+    font-size: 16px;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+.contact{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 8%;
+    gap: 50px;
+}
+.contact .box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #464646;
+    transition: 0.5s;
+}
+.contact .box:hover{
+    background-color: #e51e2e;
+    transform: translateY(-20px);
+}
+.section-1{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-2{
+    position: absolute;
+    margin-right: 47%;
+}
+.image{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center; 
+    gap: 20px;
+    margin-top: 15%;
+    margin-left: 600px;
+}
+.image img{
+    width: 120px;
+}
+.image .cola1{
+    margin-top: 170px;
+}
+.image .cola{
+    margin-top: 90px;
+}
